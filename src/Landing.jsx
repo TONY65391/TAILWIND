@@ -22,7 +22,7 @@ function Landing(){
                 </div>
 
                 <div className="w-full gaze">
-                    <img className="w-full h-auto round-md" src="/Floating_Monk_with_Dragon_Staff-removebg-preview.png" alt="Tenzu, the floating monk" />
+                    <img className="w-full h-auto round-md myJumpAnimation" src="/Floating_Monk_with_Dragon_Staff-removebg-preview.png" alt="Tenzu, the floating monk" />
                 </div>
             </div>
         </>

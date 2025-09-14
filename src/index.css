@@ -15,7 +15,7 @@ body{
     font-variant: small-caps;
 }
 .gaze{
-    background-image: url(/src/assets/Beam_of_Light_in_Dark_Room.png);
+    background-image: url(/Beam_of_Light_in_Dark_Room.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
