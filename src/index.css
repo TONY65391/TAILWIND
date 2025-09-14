@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+*,html{
+    user-select: none;
+    transition: all 0.5s ease-in-out;
+}
+
+body{
+    background: #10172a;
+    background: black;
+    color: white;
+}
+
+.small-caps{
+    font-variant: small-caps;
+}
+.gaze{
+    background-image: url(/src/assets/Beam_of_Light_in_Dark_Room.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: top;
+}
+.myJumpAnimation{
+    animation: jump 3s linear infinite;
+}
+@keyframes jump{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-50px);}
+    100%{transform: translateY(0px);}
+}
